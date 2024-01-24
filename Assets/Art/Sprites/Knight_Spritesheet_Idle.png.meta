@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2ee5e00385fa47468def1c7af73a896
+guid: 63654932abfa52945989581f4382d5fc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Spritesheet_Idle_0
+      name: Knight_Spritesheet_Idle_0
       rect:
         serializedVersion: 2
-        x: 156
-        y: 66
-        width: 230
-        height: 429
+        x: 205
+        y: 72
+        width: 241
+        height: 426
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7b48734f428a104b9b5d75dbf3acfdb
-      internalID: 1596947021
+      spriteID: 2aff47e308fccd9478b91433df18de2f
+      internalID: -8628212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Spritesheet_Idle_1
+      name: Knight_Spritesheet_Idle_1
       rect:
         serializedVersion: 2
-        x: 977
-        y: 74
-        width: 231
-        height: 427
+        x: 994
+        y: 80
+        width: 254
+        height: 418
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c75267c3f8aa46c4dbbea430f68dbe2b
-      internalID: 1847027837
+      spriteID: 919c9ddc457756e4fa733eb8b79e9a54
+      internalID: 482948785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Spritesheet_Idle_2
+      name: Knight_Spritesheet_Idle_2
       rect:
         serializedVersion: 2
-        x: 1798
-        y: 81
-        width: 230
-        height: 425
+        x: 1781
+        y: 89
+        width: 254
+        height: 413
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,50 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f54ef60e575466f48b938dbefba705f2
-      internalID: 612357345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Spritesheet_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 2618
-        y: 84
-        width: 227
-        height: 422
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89b5ebe4a59046645b7475c8e1eb14fc
-      internalID: -545970915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Spritesheet_Idle_4
-      rect:
-        serializedVersion: 2
-        x: 3475
-        y: 75
-        width: 223
-        height: 425
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9709678e00ebee458f2bab2ba658ef1
-      internalID: -2128318430
+      spriteID: 01633bdb881ac2d40a5b9e7ea4ff1036
+      internalID: -497466446
       vertices: []
       indices: 
       edges: []
@@ -230,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d6731b4ff26f055469aa82520387b23e
+    spriteID: aed5d47e53627b742b152e53c523c254
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player_Spritesheet_Idle_0: 1596947021
-      Player_Spritesheet_Idle_1: 1847027837
-      Player_Spritesheet_Idle_2: 612357345
-      Player_Spritesheet_Idle_3: -545970915
-      Player_Spritesheet_Idle_4: -2128318430
+      Knight_Spritesheet_Idle_0: -8628212
+      Knight_Spritesheet_Idle_1: 482948785
+      Knight_Spritesheet_Idle_2: -497466446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
