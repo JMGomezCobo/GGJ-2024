@@ -36,22 +36,22 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   intensity:
-    overrideState: 0
+    overrideState: 1
     value: 0
   intensityX:
-    overrideState: 0
+    overrideState: 1
     value: 1
   intensityY:
-    overrideState: 0
+    overrideState: 1
     value: 1
   centerX:
-    overrideState: 0
+    overrideState: 1
     value: 0
   centerY:
-    overrideState: 0
+    overrideState: 1
     value: 0
   scale:
-    overrideState: 0
+    overrideState: 1
     value: 1
 --- !u!114 &114289999543715932
 MonoBehaviour:
