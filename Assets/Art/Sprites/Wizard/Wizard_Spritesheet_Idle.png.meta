@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 52
+        width: 240
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dd0077e273a6f428e3bed002d0c746
+      internalID: 1657665279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 52
+        width: 241
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bd7dd24ed25bc45ac9fdc5da1c3cec
+      internalID: -1140582531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 52
+        width: 234
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf5569995747be47bc3e257225b27d2
+      internalID: 1022865049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 54
+        width: 219
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973ef46a718f0bb4e897a603a7f03463
+      internalID: 2141106382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 51
+        width: 234
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90b6f0f59fd75c499a2566d6db12ba7
+      internalID: 257260105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +237,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wizard_Spritesheet_Idle_0: 1657665279
+      Wizard_Spritesheet_Idle_1: -1140582531
+      Wizard_Spritesheet_Idle_2: 1022865049
+      Wizard_Spritesheet_Idle_3: 2141106382
+      Wizard_Spritesheet_Idle_4: 257260105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
