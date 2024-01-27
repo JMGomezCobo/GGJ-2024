@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f4117ceedc048a34a83ea752f803c6d7
+guid: fce9d712bd8c5b6468caa44c5044a0ca
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Crossbowman_Spritesheet_Run_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 22
+        width: 322
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59609e2c7b8ebb4499c5e18b68f8da9a
+      internalID: 402301581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crossbowman_Spritesheet_Run_1
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 44
+        width: 237
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9435292ae2b45cf47b2c45fda1e5becb
+      internalID: -212126382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crossbowman_Spritesheet_Run_2
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 43
+        width: 254
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c22ddb3411f4c4787c299585be244e
+      internalID: -1992230857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crossbowman_Spritesheet_Run_3
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 29
+        width: 329
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43f436acf337a6478b935403a2fedbe
+      internalID: -997975026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crossbowman_Spritesheet_Run_4
+      rect:
+        serializedVersion: 2
+        x: 3487
+        y: 43
+        width: 210
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265902c872e2d164b92686e6a4037aca
+      internalID: 211612400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +237,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crossbowman_Spritesheet_Run_0: 402301581
+      Crossbowman_Spritesheet_Run_1: -212126382
+      Crossbowman_Spritesheet_Run_2: -1992230857
+      Crossbowman_Spritesheet_Run_3: -997975026
+      Crossbowman_Spritesheet_Run_4: 211612400
+      Crossbowman_Spritesheet_Run_5: 1914700166
+      Crossbowman_Spritesheet_Run_6: 1218713788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

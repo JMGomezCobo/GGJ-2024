@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Run_1
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 23
+        width: 376
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8727215c4aeee5346bc9ce4d4f037d9e
+      internalID: 482225670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Run_2
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 16
+        width: 403
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68031b7a9b6148443bbdd5f61521edc6
+      internalID: 896263817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Run_3
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 19
+        width: 337
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca09d2d4cbf4584494a7129bd2c930f
+      internalID: -736694819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_Spritesheet_Run_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 383
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72163cd66863b2449372a3c3b01de53
+      internalID: -610300686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wizard_Spritesheet_Run_0: 1369672414
+      Wizard_Spritesheet_Run_1: 482225670
+      Wizard_Spritesheet_Run_2: 896263817
+      Wizard_Spritesheet_Run_3: -736694819
+      Wizard_Spritesheet_Run_4: -610300686
+      Wizard_Spritesheet_Run_5: -168375137
+      Wizard_Spritesheet_Run_6: -405908971
+      Wizard_Spritesheet_Run_7: -1680999133
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

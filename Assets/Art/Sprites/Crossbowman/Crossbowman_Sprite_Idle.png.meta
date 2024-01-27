@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9f165e606202d14469ab764acb7534ea
+guid: fdb5bccddf79bb44294ffbb2807da1e4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,18 +121,106 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Crossbowman_Animation_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 71
+        width: 218
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71337053ee073ab4583b477d872aacda
+      internalID: 1999335628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crossbowman_Animation_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 69
+        width: 206
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffc55687f9649a4fb051ec6eaeed027
+      internalID: -1252690322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crossbowman_Animation_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 68
+        width: 207
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221a98cd533bce845a2409d6f13b36a9
+      internalID: -636605391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crossbowman_Animation_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 75
+        width: 218
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdd095243b65324e98316f8b41e8a2a
+      internalID: 1582138531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 30f8cbc4539e2694192b255b6088b90e
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crossbowman_Animation_Idle_0: 1999335628
+      Crossbowman_Animation_Idle_1: -1252690322
+      Crossbowman_Animation_Idle_2: -636605391
+      Crossbowman_Animation_Idle_3: 1582138531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
