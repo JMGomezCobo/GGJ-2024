@@ -332,6 +332,83 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c57c3385fec4734a8bb0b0ef8608fd2, type: 3}
+--- !u!1001 &433168763
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1272332115889512, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_Name
+      value: MetalKeyPicker
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.54501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.789103
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307171208583838, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114199118431384056, guid: 65f7a37432510e541a7028a8fe359c3d,
+        type: 3}
+      propertyPath: DisableModelOnPick
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114199118431384056, guid: 65f7a37432510e541a7028a8fe359c3d,
+        type: 3}
+      propertyPath: DisableColliderOnPick
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114712941921316060, guid: 65f7a37432510e541a7028a8fe359c3d,
+        type: 3}
+      propertyPath: Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114712941921316060, guid: 65f7a37432510e541a7028a8fe359c3d,
+        type: 3}
+      propertyPath: PickableIfInventoryIsFull
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65f7a37432510e541a7028a8fe359c3d, type: 3}
 --- !u!1 &598334956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,12 +1166,12 @@ PrefabInstance:
     - target: {fileID: 941870457554434941, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2664069040857658179, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2843684802904814356, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
@@ -1154,12 +1231,12 @@ PrefabInstance:
     - target: {fileID: 2913948121629119070, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3306962760954395308, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3306962760954395308, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
@@ -1169,45 +1246,66 @@ PrefabInstance:
     - target: {fileID: 3316938634371236867, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3644184516539931343, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660027797860149072, guid: abec63bc20cd60b4089cdc7b57611e08,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 38.47682
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660027797860149072, guid: abec63bc20cd60b4089cdc7b57611e08,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 21.064617
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660027797860149072, guid: abec63bc20cd60b4089cdc7b57611e08,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 34.101105
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660027797860149072, guid: abec63bc20cd60b4089cdc7b57611e08,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -45.72721
       objectReference: {fileID: 0}
     - target: {fileID: 4818580178344595678, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5499656698858541864, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6346925493178463806, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7432651977745373835, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7457888007000137428, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7553209387083307539, guid: abec63bc20cd60b4089cdc7b57611e08,
         type: 3}
       propertyPath: DrawGizmos
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 267732481672486680, guid: abec63bc20cd60b4089cdc7b57611e08, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abec63bc20cd60b4089cdc7b57611e08, type: 3}
@@ -7819,3 +7917,4 @@ SceneRoots:
   - {fileID: 4253666528757064}
   - {fileID: 764198232}
   - {fileID: 1003975691}
+  - {fileID: 433168763}
