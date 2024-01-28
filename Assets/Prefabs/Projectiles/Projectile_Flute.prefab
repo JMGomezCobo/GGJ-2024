@@ -4790,7 +4790,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4930,7 +4929,7 @@ MonoBehaviour:
   FaceDirection: 1
   FaceMovement: 0
   MovementVector: 0
-  Speed: 500
+  Speed: 300
   Acceleration: 0
   Direction: {x: -1, y: 0, z: 0}
   DirectionCanBeChangedBySpawner: 1
@@ -4962,7 +4961,7 @@ MonoBehaviour:
   PreventTakeSelfDamage: 0
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
-  KnockbackForceMultiplier: 1
+  KnockbackForceMultiplier: 0.25
   DestroyOnDeath: 1
   DelayBeforeDestruction: 0.2
   PointsWhenDestroyed: 0
@@ -19890,7 +19889,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4c7465464f6cf394ba90e61ed031816f, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19911,8 +19910,8 @@ SpriteRenderer:
   m_SortingLayerID: 47421343
   m_SortingLayer: 4
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300008, guid: 75df1bb8b302ceb4a9230d70d1b2e97e, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -1348155510, guid: e98735cf9f180074b9af0a2c31b90f73, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

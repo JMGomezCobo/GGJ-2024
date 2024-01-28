@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5943977c6e7e91f48916dd4083450074
+guid: e98735cf9f180074b9af0a2c31b90f73
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: REY_ARMA_-_PUNO_MAGICO_2_0
+      name: Projectile_Player_0
       rect:
         serializedVersion: 2
-        x: 446
-        y: 533
-        width: 578
-        height: 345
+        x: 1220
+        y: 524
+        width: 195
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,71 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77826df68cd03054bbae06ed4a6a17e1
-      internalID: -395336184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: REY_ARMA_-_PUNO_MAGICO_2_1
-      rect:
-        serializedVersion: 2
-        x: 1337
-        y: 531
-        width: 564
-        height: 342
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69ee46a951a91284f9a0f4ee9926be4d
-      internalID: -946444471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: REY_ARMA_-_PUNO_MAGICO_2_2
-      rect:
-        serializedVersion: 2
-        x: 2180
-        y: 536
-        width: 538
-        height: 342
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 654f730a95c238847a2ad0f4b053ccd0
-      internalID: 1300652103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: REY_ARMA_-_PUNO_MAGICO_2_3
-      rect:
-        serializedVersion: 2
-        x: 3075
-        y: 532
-        width: 544
-        height: 345
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a021953170c039409f273e415c6d3bd
-      internalID: 1695191520
+      spriteID: f6c05fbbb254f0948bb72a16a1ff325d
+      internalID: -1348155510
       vertices: []
       indices: 
       edges: []
@@ -209,7 +146,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4e605a506186e4b40a98b49fd573dd64
+    spriteID: 06d45983792bf3a42a0b2054e285efac
     internalID: 0
     vertices: []
     indices: 
@@ -217,10 +154,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      REY_ARMA_-_PUNO_MAGICO_2_0: -395336184
-      REY_ARMA_-_PUNO_MAGICO_2_1: -946444471
-      REY_ARMA_-_PUNO_MAGICO_2_2: 1300652103
-      REY_ARMA_-_PUNO_MAGICO_2_3: 1695191520
+      Projectile_Player_0: -1348155510
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

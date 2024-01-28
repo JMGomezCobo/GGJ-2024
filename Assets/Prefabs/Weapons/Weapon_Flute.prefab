@@ -109,7 +109,7 @@ MonoBehaviour:
   TriggerMode: 1
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 1
+  TimeBetweenUses: 0.25
   TimeBetweenUsesReleaseInterruption: 1
   UseBurstMode: 0
   BurstLength: 3
@@ -215,8 +215,8 @@ MonoBehaviour:
   MinimumAngle: -180
   MaximumAngle: 180
   MinimumMagnitude: 0.2
-  ReticleType: 0
-  Reticle: {fileID: 1000010525066036, guid: f08bfeb16a6183b4386f121ccf51b56e, type: 3}
+  ReticleType: 2
+  Reticle: {fileID: 1373789777524232, guid: f31b518c2b50cc2479370c46d4485485, type: 3}
   ReticleDistance: 5
   ReticleHeight: 0
   ReticleAtMousePosition: 1
@@ -224,7 +224,7 @@ MonoBehaviour:
   ReplaceMousePointer: 1
   MouseDeadZoneRadius: 0.5
   DisplayReticle: 1
-  MoveCameraTargetTowardsReticle: 0
+  MoveCameraTargetTowardsReticle: 1
   CameraTargetOffset: 0.3
   CameraTargetMaxDistance: 2
   CameraTargetSpeed: 5
@@ -15365,8 +15365,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6782130154809320540}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.212681, y: -0.12122536, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15469,7 +15469,6 @@ MonoBehaviour:
   FeedbacksList:
   - rid: 0
   - rid: 1
-  - rid: 2
   - rid: 3
   - rid: 4
   - rid: 5
@@ -15700,115 +15699,6 @@ MonoBehaviour:
           m_RotationOrder: 4
         RemapThresholdZero: 0
         RemapThresholdOne: 0
-    - rid: 2
-      type: {class: MMF_ChromaticAberration, ns: MoreMountains.FeedbacksForThirdParty,
-        asm: MoreMountains.Feedbacks.PostProcessing}
-      data:
-        Active: 1
-        UniqueID: -895625728
-        Label: Chromatic Aberration
-        ChannelMode: 0
-        Channel: 0
-        MMChannelDefinition: {fileID: 0}
-        Chance: 100
-        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
-        Timing:
-          TimescaleMode: 0
-          ExcludeFromHoldingPauses: 0
-          ContributeToTotalDuration: 1
-          InitialDelay: 0
-          CooldownDuration: 0
-          InterruptsOnStop: 1
-          NumberOfRepeats: 0
-          RepeatForever: 0
-          DelayBetweenRepeats: 1
-          MMFeedbacksDirectionCondition: 0
-          PlayDirection: 0
-          ConstantIntensity: 0
-          UseIntensityInterval: 0
-          IntensityIntervalMin: 0
-          IntensityIntervalMax: 0
-          Sequence: {fileID: 0}
-          TrackID: 0
-          Quantized: 0
-          TargetBPM: 120
-        AutomatedTargetAcquisition:
-          Mode: 0
-          ChildIndex: 0
-        RandomizeOutput: 0
-        RandomMultiplier: {x: 0.8, y: 1}
-        RandomizeDuration: 0
-        RandomDurationMultiplier: {x: 0.5, y: 2}
-        UseRange: 0
-        RangeDistance: 5
-        UseRangeFalloff: 0
-        RangeFalloff:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        RemapRangeFalloff: {x: 0, y: 1}
-        Owner: {fileID: 1710523558594538418}
-        DebugActive: 0
-        Duration: 0.2
-        ResetShakerValuesAfterShake: 1
-        ResetTargetValuesAfterShake: 1
-        RemapIntensityZero: 0
-        RemapIntensityOne: 1
-        Intensity:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 0.5
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        Amplitude: 1
-        RelativeIntensity: 0
     - rid: 3
       type: {class: MMF_Flash, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
       data:
@@ -15878,8 +15768,8 @@ MonoBehaviour:
         Owner: {fileID: 1710523558594538418}
         DebugActive: 0
         FlashColor: {r: 1, g: 0.5647059, b: 0, a: 1}
-        FlashDuration: 0.2
-        FlashAlpha: 0.3
+        FlashDuration: 0.025
+        FlashAlpha: 0.0375
         FlashID: 0
     - rid: 4
       type: {class: MMF_Sound, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks.MMTools}
