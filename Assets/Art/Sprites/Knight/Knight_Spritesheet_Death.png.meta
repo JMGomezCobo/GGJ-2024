@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b88edfc5d9f608478ab2370aa00b31a
+guid: 3eb880e13255b9b49a60292b5dc0d4ab
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Knight_Spritesheet_Idle_0
+      name: Knight_Spritesheet_Death_0
       rect:
         serializedVersion: 2
-        x: 204
-        y: 72
-        width: 241
-        height: 425
+        x: 121
+        y: 19
+        width: 437
+        height: 483
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e0a1731584316b4f9b14abaa11766c1
-      internalID: 215068266
+      spriteID: 0808561ac00c6174fa002900d11738f0
+      internalID: -2015665782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knight_Spritesheet_Idle_1
+      name: Knight_Spritesheet_Death_1
       rect:
         serializedVersion: 2
-        x: 993
-        y: 81
-        width: 255
-        height: 417
+        x: 956
+        y: 11
+        width: 426
+        height: 509
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,29 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd3cdad676c1c2c468d027c61cd791a3
-      internalID: 928550139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knight_Spritesheet_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 1779
-        y: 90
-        width: 255
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe582d11a63c46344bf8a68624a2235d
-      internalID: -1967627313
+      spriteID: 58ff217e62abf0a4ab56fc07e663ddc8
+      internalID: 1134442211
       vertices: []
       indices: 
       edges: []
@@ -188,7 +167,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8d84c15fef1d3d347b02318adeba726e
+    spriteID: e8a70acdd12a1eb43a1ad8ab11e07c20
     internalID: 0
     vertices: []
     indices: 
@@ -196,14 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Knight_Spritesheet_Idle_0: 215068266
-      Knight_Spritesheet_Idle_1: 928550139
-      Knight_Spritesheet_Idle_2: -1481222760
-      Knight_Spritesheet_Idle_3: -1967627313
-      Knight_Spritesheet_Idle_4: 444846096
-      Knight_Spritesheet_Idle_5: -1308065711
-      Knight_Spritesheet_Idle_6: 1275362262
-      Knight_Spritesheet_Idle_7: 1311907339
+      Knight_Spritesheet_Death_0: -2015665782
+      Knight_Spritesheet_Death_1: 1134442211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
