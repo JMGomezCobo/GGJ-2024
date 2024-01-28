@@ -5109,7 +5109,7 @@ MonoBehaviour:
   TriggerMode: 1
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 1
+  TimeBetweenUses: 2
   TimeBetweenUsesReleaseInterruption: 1
   UseBurstMode: 0
   BurstLength: 3
@@ -5132,9 +5132,9 @@ MonoBehaviour:
   WeaponShouldFlip: 1
   LeftHandHandle: {fileID: 0}
   RightHandHandle: {fileID: 0}
-  ModifyMovementWhileAttacking: 1
+  ModifyMovementWhileAttacking: 0
   MovementMultiplier: 0.5
-  PreventAllMovementWhileInUse: 0
+  PreventAllMovementWhileInUse: 1
   PreventAllAimWhileInUse: 0
   RecoilForce: 10
   Animators:
@@ -5170,7 +5170,7 @@ MonoBehaviour:
   ProjectilesPerShot: 1
   SpawnTransforms: []
   SpawnTransformsMode: 1
-  Spread: {x: 0, y: 0, z: 10}
+  Spread: {x: 0, y: 0, z: 0}
   RotateWeaponOnSpread: 1
   RandomSpread: 1
   SpawnPosition: {x: 1.85, y: 0.07, z: 0}
@@ -21019,7 +21019,7 @@ MonoBehaviour:
   DebugActive: 0
   FeedbacksList:
   - rid: 8539794199941480455
-  - rid: 8539794199941480456
+  - rid: 8539794209199620099
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   StopFeedbacksOnDisable: 0
@@ -21212,11 +21212,11 @@ MonoBehaviour:
           ButtonText: Debug Stop Sound
         ResetSequentialIndexButton:
           ButtonText: Reset Sequential Index
-    - rid: 8539794199941480456
+    - rid: 8539794209199620099
       type: {class: MMF_MMSoundManagerSound, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks.MMTools}
       data:
         Active: 1
-        UniqueID: 1358139260
+        UniqueID: -1620740278
         Label: MMSoundManager Sound
         ChannelMode: 0
         Channel: 0
@@ -21227,7 +21227,7 @@ MonoBehaviour:
           TimescaleMode: 0
           ExcludeFromHoldingPauses: 0
           ContributeToTotalDuration: 1
-          InitialDelay: 0.1
+          InitialDelay: 0
           CooldownDuration: 0
           InterruptsOnStop: 1
           NumberOfRepeats: 0
@@ -21302,8 +21302,8 @@ MonoBehaviour:
         SequentialOrderHoldCooldownDuration: 2
         RandomUnique: 0
         SoundDataSO: {fileID: 0}
-        MinVolume: 0.5
-        MaxVolume: 0.5
+        MinVolume: 1
+        MaxVolume: 1
         MinPitch: 0.8
         MaxPitch: 1
         MmSoundManagerTrack: 0
