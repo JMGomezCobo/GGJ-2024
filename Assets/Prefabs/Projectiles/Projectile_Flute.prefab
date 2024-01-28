@@ -20715,10 +20715,9 @@ MonoBehaviour:
         DebugActive: 0
         Sfx: {fileID: 0}
         RandomSfx:
-        - {fileID: 8300000, guid: f1a364d05772cfa458037d779194b2ce, type: 3}
-        - {fileID: 8300000, guid: 68a3ea91ae9cdf64681a6122f3cc825e, type: 3}
-        - {fileID: 8300000, guid: 0d24c700a6567f04c89ee6756bec9c83, type: 3}
-        - {fileID: 8300000, guid: a5a1e0fdd7982884b907d6609328cea2, type: 3}
+        - {fileID: 8300000, guid: 76846384965ce4c4eaebe1e9876427a9, type: 3}
+        - {fileID: 8300000, guid: 633f18059c3c35e48bb9346b54c1a5d7, type: 3}
+        - {fileID: 8300000, guid: c5821a30f4a791341bce2eefb9346747, type: 3}
         SequentialOrder: 0
         SequentialOrderHoldLast: 0
         SequentialOrderHoldCooldownDuration: 2

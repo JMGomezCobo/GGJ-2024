@@ -13,10 +13,10 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: GGJ-2024
+  productName: The Laugh Guardian
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 1, g: 0.23529412, b: 0, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.91372555, g: 0.24705884, b: 0.34901962, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 0
@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 2de366636f4c9fa498926af72ca0834e, type: 3}
+  - logo: {fileID: 0}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -290,7 +290,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: a7adf48d4c8aa994cbdb33b10ecd5073, type: 3}
+      m_Icon: {fileID: 2800000, guid: 1c4fad36b370da04cbc1ee0094a6957b, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

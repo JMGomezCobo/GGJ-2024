@@ -15788,21 +15788,9 @@ MonoBehaviour:
         DebugActive: 0
         Sfx: {fileID: 0}
         RandomSfx:
-        - {fileID: 8300000, guid: d13609efa4716f14689b07c5092d32ab, type: 3}
-        - {fileID: 8300000, guid: 30301996dc07ae54f89971de36c69a4c, type: 3}
-        - {fileID: 8300000, guid: d63239e9867e4ba48bb384a5dbd6213f, type: 3}
-        - {fileID: 8300000, guid: 634801d255fee2d4bb8d26b3943f9e9d, type: 3}
-        - {fileID: 8300000, guid: 9e5b769e9b7c95645815f8d1210ec509, type: 3}
-        - {fileID: 8300000, guid: ecb89f3ed3d14f94aae7a9e98b5bc3c0, type: 3}
-        - {fileID: 8300000, guid: 0166276e33a034048940f49b06b114a7, type: 3}
-        - {fileID: 8300000, guid: ca4f53788452a7d4a8c3f832f9802110, type: 3}
-        - {fileID: 8300000, guid: 980289b549d543a4185590f4ba3079c3, type: 3}
-        - {fileID: 8300000, guid: 374bb658464a9a240918e07a70a17001, type: 3}
-        - {fileID: 8300000, guid: ce37bccea17ea724db482352f8f23be6, type: 3}
-        - {fileID: 8300000, guid: d5101a39b26de594b80fbd59aa014ca8, type: 3}
-        - {fileID: 8300000, guid: 293263aa340257f43b752b42db9203bd, type: 3}
-        - {fileID: 8300000, guid: 456e56d0732633049b5736b653a40ef4, type: 3}
-        - {fileID: 8300000, guid: df324a1f6e2f3bf45af6b571c69f3270, type: 3}
+        - {fileID: 8300000, guid: 21c01bec9647af54f9d25b7a21d308c7, type: 3}
+        - {fileID: 8300000, guid: 0d63e559cd7cb5247996d9fb4e512293, type: 3}
+        - {fileID: 8300000, guid: 7133815e021055c4782b01ec25dd66c0, type: 3}
         SequentialOrder: 0
         SequentialOrderHoldLast: 0
         SequentialOrderHoldCooldownDuration: 2
