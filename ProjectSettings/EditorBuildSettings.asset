@@ -6,20 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuScene.unity
+    path: Assets/Scenes/TemplateScene.unity
+    guid: 82e53b3ab0393fd4ea1c8b9910229425
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 05b2268803802c546a1b2845a63ff335
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
     guid: 4785ccf0f7ab3d94599f6f522eb41249
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 888394d52616e5e42b3b54c3f2bbd3eb
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: c07150e4db22bfb468e23c1caecf4165
   - enabled: 0
     path: Assets/Scenes/TemplateScene 2.unity
     guid: 06b574e80b96a6543a26360a3032c302
   - enabled: 0
     path: Assets/TopDownEngine/Demos/StartScreen/StartScreen.unity
     guid: 52360e1567e3fee418407abdfd132d73
-  - enabled: 1
-    path: Assets/Scenes/TemplateScene.unity
-    guid: 82e53b3ab0393fd4ea1c8b9910229425
-  - enabled: 1
-    path: Assets/Scenes/LoadingScreen.unity
-    guid: 888394d52616e5e42b3b54c3f2bbd3eb
   - enabled: 0
     path: Assets/TopDownEngine/Demos/LevelSelection/LevelSelection.unity
     guid: f991cbe75cb701b43baec351a60a630a
@@ -146,7 +152,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Demos/MMSceneLoading/MMSceneLoadingDemoSceneB.unity
     guid: 352d34cac2435634fb99618d19a3929c
-  - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 05b2268803802c546a1b2845a63ff335
   m_configObjects: {}
