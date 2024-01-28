@@ -6222,7 +6222,6 @@ GameObject:
   - component: {fileID: 4502538841377078011}
   - component: {fileID: 2378903277659050394}
   - component: {fileID: 4534123740494596674}
-  - component: {fileID: 651259311432973597}
   - component: {fileID: 319704085275535294}
   - component: {fileID: 3475806139279183883}
   - component: {fileID: 1333245362725029107}
@@ -6317,7 +6316,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.15}
@@ -6381,7 +6380,7 @@ MonoBehaviour:
     m_Bits: 32768
   ObstaclesLayerMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 8448
 --- !u!114 &6806734328215472694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6542,55 +6541,6 @@ MonoBehaviour:
   RunSpeed: 5
   AutoRun: 1
   AutoRunThreshold: 0.6
---- !u!114 &651259311432973597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6544050856750652852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76891b3b532f84acaaeed44c357bd00c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TargetLayerMask:
-    serializedVersion: 2
-    m_Bits: 1024
-  Owner: {fileID: 0}
-  TriggerFilter: 195
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
-  TypedDamages: []
-  DamageDirectionMode: 1
-  DamageCausedKnockbackType: 2
-  DamageCausedKnockbackDirection: 0
-  DamageCausedKnockbackForce: {x: 500, y: 500, z: 0}
-  InvincibilityDuration: 1
-  RepeatDamageOverTime: 0
-  AmountOfRepeats: 3
-  DurationBetweenRepeats: 1
-  DamageOverTimeInterruptible: 1
-  RepeatedDamageType: {fileID: 0}
-  DamageTakenHealth: {fileID: 0}
-  DamageTakenEveryTime: 0
-  DamageTakenDamageable: 0
-  DamageTakenNonDamageable: 0
-  DamageTakenKnockbackType: 0
-  DamageTakenKnockbackForce: {x: 0, y: 0, z: 0}
-  DamageTakenInvincibilityDuration: 0.5
-  HitDamageableFeedback: {fileID: 0}
-  HitNonDamageableFeedback: {fileID: 0}
-  HitAnythingFeedback: {fileID: 0}
-  HitDamageableEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  HitNonDamageableEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  HitAnythingEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &319704085275535294
 MonoBehaviour:
   m_ObjectHideFlags: 0
